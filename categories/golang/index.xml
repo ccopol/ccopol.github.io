@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cédrick Copol</title>
+    <link>http://www.ccopol.fr/categories/golang/index.xml</link>
+    <description>Recent content on Cédrick Copol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>Cédrick Copol</copyright>
+    <atom:link href="http://www.ccopol.fr/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Publications</title>
+      <link>http://www.ccopol.fr/publi/</link>
+      <pubDate>Fri, 16 Dec 2016 11:22:33 -0400</pubDate>
+      
+      <guid>http://www.ccopol.fr/publi/</guid>
+      <description>
+
+&lt;dl&gt;
+&lt;dt&gt;2012&lt;/dt&gt;
+&lt;dd&gt;F. Charles, Numerical simulation by a random particle method of Deuterium-Tritium fusion reactions in a plasma. (disponnible sur  &lt;a href=&#34;http://hal.upmc.fr/hal-00689821/&#34;&gt;hal&lt;/a&gt; et &lt;a href=&#34;http://www.esaim-proc.org/articles/proc/abs/2012/04/proc123812/proc123812.html&#34;&gt;esaim-proc&lt;/a&gt;)&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&#34;conférences-internationales&#34;&gt;Conférences internationales&lt;/h3&gt;
+
+&lt;h3 id=&#34;conférences-nationales&#34;&gt;Conférences nationales&lt;/h3&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;2012&lt;/dt&gt;
+&lt;dd&gt;C. COPOL, J. LAMINIE, S. LOPEZ, Journée des doctorants, &lt;a href=&#34;http://www.brgm.fr/sites/default/files/geothermie_doctorants2012.pdf&#34;&gt;pdf&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

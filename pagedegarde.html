@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Créer sa page de garde</title>
+
+        <!-- Icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+        <link rel="shortcut icon" href="/favicon.png">
+
+        <link rel="stylesheet" media="screen" href="/css/uapgdglobal.css" />
+        <link rel="stylesheet" media="screen" href="/css/uapgdcode.css" />
+        <link rel="stylesheet" media="screen" href="/css/uapgdlatex.css" />
+    </head>
+    <body class='registrations registrations-new is-session'>
+
+        <h1 style="margin:auto;width:100%;text-align:center">Page de démonstration</h1>
+
+        <!-- <div style="margin-top:0;width:100%;text-align:center">
+        <span style="color:#e74c3c;font-size:50px">non </span>
+        <span style="color:#e74c3c;font-size:70px">off</span>
+        <span style="color:#e74c3c;font-size:90px">i</span>
+        <span style="color:#e74c3c;font-size:100px">c</span>
+        <span style="color:#e74c3c;font-size:70px">ie</span>
+        <span style="color:#e74c3c;font-size:50px">lles</span>
+        </div> -->
+        <main class='content'><div class='row'>
+        <div class='cell cell--800 well well--xl'>
+        <div class='g g--l'>
+        <div class='g-b g-b--m--2of6 mbm mbf--m'>
+            <!-- <a class="db" href="/"><img alt="Université des Antilles" class="db mhc" width="150" src="img/logo_ua.jpg" />
+            </a> -->
+            <a class="db" href="/"><img alt="Université des Antilles" class="db mhc" width="150" src="img/uapagedegarde.svg" />
+            </a>
+            <a class="db" href="/img/uapgd/these.png"><img alt="Université des Antilles" class="db mhc" width="150" src="img/uapgd/these.png" />
+            </a>
+            <a class="db" href="/img/uapgd/memoire.png"><img alt="Université des Antilles" class="db mhc" width="150" src="img/uapgd/memoire.png" />
+            </a>
+            <a class="db" href="/img/uapgd/logogua.png"><img alt="Université des Antilles" class="db mhc" width="150" src="img/uapgd/logogua.png" />
+            </a>
+        </div>
+        <div class='g-b g-b--m--4of6'>
+        <h1 class='h h--bold mbf'>Créer votre page de garde</h1>
+        <p class='tcs tss'>
+            N'hésitez pas à cloner l'extension
+         <a class="link link--underline" href="http://gitlab.com/ccopol/uapagedegarde">uapagedegarde</a> si vous utilisez déjà
+         <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>.
+        </p>
+        <p class='tcs tss'>
+            Visualisez un exemple de la page de garde pour la <a class="link link--underline" href="these.pdf">thèse</a>
+            ou le <a class="link link--underline" href="memoire.pdf">mémoire</a>.
+        </p>
+        <fieldset class='form-field'>
+            <label data-required="true" class="form-label">Auteur</label>
+            <div  class="flexform">
+            <input id="authfirstname" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="authfirstname" placeholder="Prénom"/>
+            <input id="authname" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="authname" placeholder="Nom"/>
+            </div>
+        </fieldset>
+
+        <fieldset class='form-field'>
+            <label data-required="true" class="form-label">Directeur</label>
+            <div  class="flexform">
+            <input id="dirfirstname" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="dirfirstname" placeholder="Prénom"/>
+            <input id="dirname" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="dirname" placeholder="Nom"/>
+            <input id="dirprof" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="dirprof" placeholder="Profession"/>
+            <input id="dirlieu" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="dirlieu" placeholder="Université ou autre"/>
+            </div>
+        </fieldset>
+
+        <label>
+        <input type='checkbox' value=''>
+         Avez-vous un autre encadrant ?
+        </label>
+
+        <h2>Renseigner les membres du jury</h2>
+
+        <fieldset class='form-field' id="jury">
+            <div>
+            <label data-required="true" class="form-label">Membre</label>
+                <div  class="flexform">
+                <input id="juryfirstname" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="juryfirstname" placeholder="Prénom"/>
+                <input id="juryname" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="juryname" placeholder="Nom"/>
+                <input id="juryprof" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="juryprof" placeholder="Profession"/>
+                <input id="juryfct" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="juryfct" placeholder="Examinateur/Rapporteur..."/>
+                </div>
+                <div>
+                <input id="jurylieu" value="" class="form-input required" autofocus="autofocus" required="required" type="text" name="jurylieu" placeholder="Université ou autre"/>
+                </div>
+            </div>
+        </fieldset>
+        <input type="button" value="Ajoutez un membre" id="add">
+
+        <div class='mbl pbl'>
+            <div class='mts mtm--m tac'>
+                <input type="submit" name="commit" value="Générer le pdf" class="form-btn btn btn--l mbm" data-disable-with="En cours…" />
+            </div>
+        </div>
+        <ul class='list list--inline list--inline--s tac tcs tsxs'>
+            <li class='list-item'>&copy; 2016 </li>
+            <li class='list-item'><img alt="Cédrick Copol" width="150" src="img/c.n.copol-gmail.svg"/></li>
+            <li class='list-item'><a class="link link--underline" href="/privacy">Privacy Policy</a></li>
+        </ul>
+
+        </form>
+        </div>
+
+        </div>
+        </div>
+        </div>
+        </div>
+        </main>
+        <script src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/addrmvform.js"></script>
+    </body>
+</html>

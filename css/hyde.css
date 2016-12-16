@@ -68,6 +68,9 @@ html {
     width: 18rem;
     text-align: left;
   }
+  .sidebar-nav .separator{
+      height:25px;
+  }
 }
 
 /* Sidebar links */

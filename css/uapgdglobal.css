@@ -1,0 +1,35 @@
+.flexform {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.flexform input{
+    width: 49%;
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 48em) {
+    .flexform {
+        /*height: 95px;*/
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        /*align-content: center;
+        justify-content: space-between;*/
+    }
+    .flexform input{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*.field-4forms .flexform {
+        height: 195px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }*/
+
+    input{
+        padding-top: 35px;
+    }
+}
