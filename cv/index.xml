@@ -11,12 +11,14 @@
     <atom:link href="http://www.ccopol.fr/cv/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Docteur en Mathématiques Appliquées</title>
+      <title>CV détaillé</title>
       <link>http://www.ccopol.fr/cv/</link>
       <pubDate>Thu, 15 Dec 2016 09:03:22 -0400</pubDate>
       
       <guid>http://www.ccopol.fr/cv/</guid>
       <description>
+
+&lt;h1 id=&#34;docteur-en-mathématiques-appliquées&#34;&gt;Docteur en Mathématiques Appliquées&lt;/h1&gt;
 
 &lt;h2 id=&#34;situation-actuelle&#34;&gt;Situation actuelle&lt;/h2&gt;
 
@@ -41,24 +43,22 @@ MPSI du Lycée Générale et Technologique de Baimbridge (37h/an).&lt;/p&gt;
 
 &lt;dl&gt;
 &lt;dt&gt;2016&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;strong&gt;Doctorat en Mathématiques Appliquées&lt;/strong&gt;, &lt;em&gt;de l&amp;rsquo;Université des Antilles&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Sujet : Analyse mathématique et numérique pour la modélisation des
+&lt;dd&gt;&lt;strong&gt;Doctorat en Mathématiques Appliquées&lt;/strong&gt;, &lt;em&gt;de l&amp;rsquo;Université des Antilles&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;Sujet : Analyse mathématique et numérique pour la modélisation des
    systèmes hydrothermaux. Application à la géothermie haute énergie.&lt;/em&gt; &lt;br /&gt;
 &lt;strong&gt;Directeur&lt;/strong&gt; : Jacques LAMINIE, &lt;strong&gt;Co-encadrant&lt;/strong&gt; : Simon LOPEZ du BRGM. &lt;strong&gt;Rapporteurs&lt;/strong&gt; : François ALOUGES et
-   Frédéric LAGOUTIÈRE.&lt;/p&gt;&lt;/dd&gt;
+   Frédéric LAGOUTIÈRE.&lt;/dd&gt;
 &lt;dt&gt;2010&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;strong&gt;Master 2 Mathématiques et Modélisation (MAMO)&lt;/strong&gt;, Université des Antilles et la Guyane (UAG)
+&lt;dd&gt;&lt;strong&gt;Master 2 Mathématiques et Modélisation (MAMO)&lt;/strong&gt;, Université des Antilles et la Guyane (UAG)&lt;br&gt;
  &lt;em&gt;Stage :  Analyse mathématique et numérique pour la modélisation
- des systèmes hydrothermaux.&lt;/em&gt;&lt;/p&gt;&lt;/dd&gt;
+ des systèmes hydrothermaux.&lt;/em&gt;&lt;/dd&gt;
 &lt;dt&gt;2009&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;strong&gt;Master 1 Mathématiques voie recherche&lt;/strong&gt;, UAG, Mention : Assez Bien&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Stage : Régularité métrique et q-régularité pour les applications multivoques&lt;/em&gt;&lt;/p&gt;&lt;/dd&gt;
+&lt;dd&gt;&lt;strong&gt;Master 1 Mathématiques voie recherche&lt;/strong&gt;, UAG, Mention : Assez Bien&lt;br&gt;
+&lt;em&gt;Stage : Régularité métrique et q-régularité pour les applications multivoques&lt;/em&gt;&lt;/dd&gt;
 &lt;dt&gt;2008&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;em&gt;Licence de mathématiques&lt;/em&gt;,UAG,Mention~: Bien&lt;/p&gt;&lt;/dd&gt;
+&lt;dd&gt;&lt;em&gt;Licence de mathématiques&lt;/em&gt;, UAG, Mention : Bien&lt;/dd&gt;
 &lt;dt&gt;2006&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;em&gt;Classe Préparatoire Aux Grandes Écoles (CPGE)&lt;/em&gt;, MPSI - MP, Baimbridge&lt;/p&gt;&lt;/dd&gt;
+&lt;dd&gt;&lt;em&gt;Classe Préparatoire Aux Grandes Écoles (CPGE)&lt;/em&gt;, MPSI - MP, Baimbridge&lt;/dd&gt;
 &lt;/dl&gt;
 
 &lt;h2 id=&#34;expérience-et-compétences&#34;&gt;Expérience et compétences&lt;/h2&gt;
@@ -81,35 +81,37 @@ MPSI du Lycée Générale et Technologique de Baimbridge (37h/an).&lt;/p&gt;
 
 &lt;dl&gt;
 &lt;dt&gt;2015-2017&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;strong&gt;Enseignant-vacataire&lt;/strong&gt;, Université des Antilles, Niveau L1 à L3&lt;/p&gt;
-
-&lt;p&gt;theme
-  ~ Analyse numérique $f(x) = 0$ [TD 2x10h TP 2x8h]
-  ~ OIM HTML5 &amp;amp; CSS3 [TD 2x12h]&lt;/p&gt;&lt;/dd&gt;
+&lt;dd&gt;&lt;strong&gt;Enseignant-vacataire&lt;/strong&gt;, Université des Antilles, Niveau L1 à L3&lt;br&gt;
+  Analyse numérique f(x) = 0 [TD 2x10h TP 2x8h]&lt;br&gt;
+  OIM HTML5 &amp;amp; CSS3 [TD 2x12h]&lt;/dd&gt;
 &lt;dt&gt;2015-2017&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;strong&gt;Khôlleur&lt;/strong&gt;, Lycée Général et Technologique de Baimbridge,&lt;/p&gt;
-
-&lt;p&gt;Évaluation d&amp;rsquo;étudiants de classe préparatoire aux grandes écoles, MPSI&lt;/p&gt;&lt;/dd&gt;
+&lt;dd&gt;&lt;strong&gt;Khôlleur&lt;/strong&gt;, Lycée Général et Technologique de Baimbridge,&lt;br&gt;
+Évaluation d&amp;rsquo;étudiants de classe préparatoire aux grandes écoles, MPSI&lt;/dd&gt;
 &lt;dt&gt;2013-2015&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;strong&gt;Attaché Temporaire à l&amp;rsquo;Enseignements et à la Recherche (ATER)&lt;/strong&gt;, UAG, Niveau L1 à  M1&lt;/p&gt;
-
-&lt;p&gt;theme
-  ~ Analyse numérique Licence et Master &lt;a href=&#34;Recherche de racine par des méthodes utilisant des fonctions contractantes, méthode de point fixe...; calcul matricielle LU, QR, LDL$^t$&#34;&gt;TD et TP&lt;/a&gt;
-  ~ OIM HTML [TP 12h]
-  ~ LaTeX [TD 12h]
-  ~ C2I [TP 3x6h]
-  ~ Mathématique SJE L1 &lt;a href=&#34;espace vectoriel, fonction réelle à plusieurs variables, optimisation...&#34;&gt;TD 3x18h&lt;/a&gt;&lt;/p&gt;&lt;/dd&gt;
+&lt;dd&gt;&lt;strong&gt;Attaché Temporaire à l&amp;rsquo;Enseignements et à la Recherche (ATER)&lt;/strong&gt;, UAG, Niveau L1 à  M1
+  &lt;br&gt; Analyse numérique Licence et Master, &lt;em&gt;TD et TP (Recherche de racine par des méthodes utilisant des fonctions contractantes, méthode de point fixe&amp;hellip;; calcul matricielle LU, QR, LDLt)&lt;/em&gt;
+  &lt;br&gt; OIM HTML [TP 12h]
+  &lt;br&gt; LaTeX [TD 12h]
+  &lt;br&gt; C2I [TP 3x6h]
+  &lt;br&gt; Mathématique SJE L1, &lt;em&gt;TD
+     (espace vectoriel, fonction réelle à plusieurs variables, optimisation&amp;hellip;)&lt;/em&gt;&lt;/dd&gt;
 &lt;/dl&gt;
 
 &lt;h3 id=&#34;informatique&#34;&gt;Informatique&lt;/h3&gt;
 
-&lt;p&gt;|   |   |   |
-&amp;ndash;|&amp;mdash;|&amp;mdash;|&amp;mdash;|&amp;ndash;
-  Langages   | Bash, C (base)    |  | Logiciel   | Scilab, Matlab
-  POO        | Fortran, Python   |  | OS         | Linux, Windows, Mac OS X
-  Versionning| Subversion, Git   |  | Administration   | Serveur Web, Gitlab&lt;/p&gt;
-
 &lt;dl&gt;
+&lt;dt&gt;Langages&lt;/dt&gt;
+&lt;dd&gt;Bash, C (base)&lt;/dd&gt;
+&lt;dt&gt;Logiciel&lt;/dt&gt;
+&lt;dd&gt;Scilab, Matlab&lt;/dd&gt;
+&lt;dt&gt;POO&lt;/dt&gt;
+&lt;dd&gt;Fortran, Python&lt;/dd&gt;
+&lt;dt&gt;OS&lt;/dt&gt;
+&lt;dd&gt;Linux, Windows, Mac OS X&lt;/dd&gt;
+&lt;dt&gt;Versionning&lt;/dt&gt;
+&lt;dd&gt;Subversion, Git&lt;/dd&gt;
+&lt;dt&gt;Administration&lt;/dt&gt;
+&lt;dd&gt;Serveur Web, Gitlab&lt;/dd&gt;
 &lt;dt&gt;LaTeX&lt;/dt&gt;
 &lt;dd&gt;&lt;strong&gt;Connaissance Solide&lt;/strong&gt;, Page de garde créée pour les rapports de M1
        et M2 de Mamo de l&amp;rsquo;UAG (encore utilisé)&lt;/dd&gt;

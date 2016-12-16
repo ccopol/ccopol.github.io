@@ -147,9 +147,9 @@ body:after {
 
 /* fonts */
 /* line 21, ../../stylesheets/style.scss */
-body {
+/*body {
   font-family: "Palatino", sans-serif;
-}
+}*/
 
 /* line 22, ../../stylesheets/style.scss */
 strong {
@@ -363,6 +363,7 @@ section > h3 {
   width: 83.05085%;
   float: left;
   margin-right: 1.69492%;
+  color: #3872b2;
 }
 /* line 199, ../../stylesheets/style.scss */
 section > dl {
@@ -370,13 +371,24 @@ section > dl {
   float: right;
   margin-right: 0;
 }
+section > #informatique + dl{
+  float: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+section > #informatique+dl  dd {
+  width: 30%;
+  float: none;
+  margin-right: 0;
+}
+
 /* line 202, ../../stylesheets/style.scss */
 section > dl dl {
   margin-left: -20.40816%;
 }
 /* line 207, ../../stylesheets/style.scss */
 section:not(.listing) > dl > dt, section:not(.listing) > dl > dd, section.listing > dl > dt:first-of-type, section.listing > dl > dd:first-of-type {
-  margin-top: 1.27778em;
+  margin-top: 0.2em;
 }
 /* line 212, ../../stylesheets/style.scss */
 section dt {
