@@ -201,9 +201,7 @@ MPSI du Lycée Générale et Technologique de Baimbridge (37h/an).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.ccopol.fr/img/03_pull_from_ext_remote.gif&#34; alt=&#34;pull à partir ext&#34; /&gt;&lt;/p&gt;
 
-&lt;footer&gt;
-Le thème de cette page est très largement inspiré de [pages.github](https://pages.github.com)
-&lt;/footer&gt;
+&lt;p&gt;&lt;span style=&#34;font-size:0.5em;&#34;&gt; Le thème de cette page est très largement inspiré de &lt;a href=&#34;https://pages.github.com&#34;&gt;pages.github&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
@@ -382,10 +380,9 @@ Vous devriez avoir aux minimum ceci
       <guid>http://www.ccopol.fr/homepage/</guid>
       <description>
 
-&lt;p&gt;&lt;div&gt;&lt;/p&gt;
+&lt;div&gt;
 
-&lt;p&gt;&lt;/div&gt;
-&lt;img src=&#34;http://www.ccopol.fr/img/lamia-titre-petit.jpeg&#34; alt=&#34;logo du laboratoire de mathématiques informatique et applications&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Vous y trouverez certains de mes projets passé et en cours, certains de mes travaux de recherches,
 dont mes &lt;a href=&#34;http://www.ccopol.fr/publi/&#34;&gt;publications&lt;/a&gt; et aussi mon
@@ -398,6 +395,8 @@ CV détaillé.&lt;/p&gt;
 &lt;h6 id=&#34;remarque&#34;&gt;Remarque&lt;/h6&gt;
 
 &lt;p&gt;Vous observerez parfois quelques fausses notes de l&amp;rsquo;interface. Je suis en train d&amp;rsquo;adapter un thème à mes besoins donc certaines choses restent à améliorer, comme le « responsive design ».&lt;/p&gt;
+
+&lt;p&gt;Je fais actuellement partie du LAMIA qui se trouve à l&amp;rsquo;Université des Antilles &lt;img src=&#34;http://www.ccopol.fr/img/lamia-titre-petit.jpeg&#34; alt=&#34;logo du laboratoire de mathématiques informatique et applications&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em style=&#34;font-size:70%;margin-top:100px;display:block&#34;&gt;
 Ce site est propulsé par &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; avec le thème &lt;a href=&#34;http://themes.gohugo.io/hyde/&#34;&gt;Hyde&lt;/a&gt;

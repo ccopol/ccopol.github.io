@@ -92,9 +92,7 @@
 
 &lt;p&gt;&lt;img src=&#34;http://www.ccopol.fr/img/03_pull_from_ext_remote.gif&#34; alt=&#34;pull à partir ext&#34; /&gt;&lt;/p&gt;
 
-&lt;footer&gt;
-Le thème de cette page est très largement inspiré de [pages.github](https://pages.github.com)
-&lt;/footer&gt;
+&lt;p&gt;&lt;span style=&#34;font-size:0.5em;&#34;&gt; Le thème de cette page est très largement inspiré de &lt;a href=&#34;https://pages.github.com&#34;&gt;pages.github&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
