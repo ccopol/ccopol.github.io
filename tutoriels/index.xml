@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bikagit-rsses on Cédrick Copol</title>
-    <link>http://www.ccopol.fr/bikagit/index.xml</link>
-    <description>Recent content in Bikagit-rsses on Cédrick Copol</description>
+    <title>Tutoriels-rsses on Cédrick Copol</title>
+    <link>http://www.ccopol.fr/tutoriels/index.xml</link>
+    <description>Recent content in Tutoriels-rsses on Cédrick Copol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>Cédrick Copol</copyright>
     <lastBuildDate>Wed, 27 Jan 2016 18:00:00 -0400</lastBuildDate>
-    <atom:link href="http://www.ccopol.fr/bikagit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.ccopol.fr/tutoriels/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bikagit hors de l&#39;université ! (méthode avec Gitkraken)</title>
-      <link>http://www.ccopol.fr/bikagit/2016-11-27-connexion-gitlab-exterieur-Gitkraken/</link>
+      <link>http://www.ccopol.fr/tutoriels/2016-11-27-connexion-gitlab-exterieur-Gitkraken/</link>
       <pubDate>Wed, 27 Jan 2016 18:00:00 -0400</pubDate>
       
-      <guid>http://www.ccopol.fr/bikagit/2016-11-27-connexion-gitlab-exterieur-Gitkraken/</guid>
+      <guid>http://www.ccopol.fr/tutoriels/2016-11-27-connexion-gitlab-exterieur-Gitkraken/</guid>
       <description>
 
 &lt;!-- &lt;section role=&#34;banner&#34;&gt;
@@ -56,13 +56,13 @@
 
 &lt;h4 id=&#34;ouverture-d-un-accès&#34;&gt;Ouverture d&amp;rsquo;un accès&lt;/h4&gt;
 
-&lt;p&gt;Pour ouvrir un accès au sasc3i, ouvrez un terminal et &lt;strong&gt;garder&lt;/strong&gt; le ouvert pendant toute la séance de travail sur bikagit. Attention ! Fermez le terminal c&amp;rsquo;est fermer la porte d&amp;rsquo;accès. Tapez dans le terminal&lt;/p&gt;
+&lt;p&gt;Pour ouvrir un accès au sasc3i, ouvrez un terminal et &lt;strong&gt;garder&lt;/strong&gt; le ouvert pendant toute la séance de travail sur bikagit. Attention ! Fermer le terminal c&amp;rsquo;est fermer la porte d&amp;rsquo;accès. Tapez dans le terminal&lt;/p&gt;
 
 &lt;div class=&#34;terminal&#34;&gt;
   &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;shell&#34;&gt;
     &lt;p&gt;&lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
-    ssh -L 2022:lic3i.univ-ag.fr:22 &lt;em&gt;&lt;strong&gt;user&lt;/strong&gt;&lt;/em&gt;@sasc3i.univ-ag.fr
+    ssh -L 2022:lic3i.univ-ag.fr:22 &lt;em&gt;user&lt;/em&gt;@sasc3i.univ-ag.fr
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -71,23 +71,24 @@
 
 &lt;h4 id=&#34;lister-les-dépôts-distants&#34;&gt;Lister les dépôts distants&lt;/h4&gt;
 
-&lt;p&gt;Les dépôts distants (« remote ») sont sur la partie gauche de l&amp;rsquo;interface de &lt;a href=&#34;http://www.gitkraken.com&#34;&gt;Gitkraken&lt;/a&gt;, voir l&amp;rsquo;image suivante :&lt;/p&gt;
+&lt;p&gt;Les dépôts distants (« remote ») sont sur la partie gauche de l&amp;rsquo;interface de &lt;a href=&#34;http://www.gitkraken.com&#34;&gt;Gitkraken&lt;/a&gt;.
+&lt;!-- , voir l&#39;image suivante : --&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ccopol.fr/img/01_liste_depot_distant.png&#34; alt=&#34;liste des dépôts distants&#34; /&gt;&lt;/p&gt;
+&lt;!-- ![liste des dépôts distants](/img/01_liste_depot_distant.gif) --&gt;
 
 &lt;h4 id=&#34;ajouter-un-dépôt&#34;&gt;Ajouter un dépôt&lt;/h4&gt;
 
 &lt;p&gt;Il faut rajouter le dépôt distant ssh://git@localhost:2022/user/repository.git que nous pouvons surnommer « ext ».&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ccopol.fr/img/01_add_ext_remote.gif&#34; alt=&#34;Rajout dépôt distant avec Gitkraken&#34; /&gt;{text-align:center}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ccopol.fr/img/01_add_ext_remote.gif&#34; alt=&#34;Rajout dépôt distant avec Gitkraken&#34; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;push-it&#34;&gt;Push it&lt;/h4&gt;
+&lt;h4 id=&#34;push-it-propager&#34;&gt;Push it &amp;mdash; Propager&lt;/h4&gt;
 
 &lt;!-- À l&#39;extérieur de la fac, il faudra choisir le dépôt « ext » pour pousser ou tirer les changements. --&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.ccopol.fr/img/02_push_to_ext_remote.gif&#34; alt=&#34;push vers ext&#34; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;pull-it&#34;&gt;Pull it&lt;/h4&gt;
+&lt;h4 id=&#34;pull-it-rappatrier&#34;&gt;Pull it &amp;mdash; Rappatrier&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.ccopol.fr/img/03_pull_from_ext_remote.gif&#34; alt=&#34;pull à partir ext&#34; /&gt;&lt;/p&gt;
 
@@ -108,15 +109,11 @@ Le thème de cette page est très largement inspiré de [pages.github](https://p
     
     <item>
       <title>Bikagit hors de l&#39;université ! (méthode avec le terminal)</title>
-      <link>http://www.ccopol.fr/bikagit/2016-11-27-connexion-gitlab-exterieur-terminal/</link>
+      <link>http://www.ccopol.fr/tutoriels/2016-11-27-connexion-gitlab-exterieur-terminal/</link>
       <pubDate>Wed, 27 Jan 2016 17:38:20 -0400</pubDate>
       
-      <guid>http://www.ccopol.fr/bikagit/2016-11-27-connexion-gitlab-exterieur-terminal/</guid>
+      <guid>http://www.ccopol.fr/tutoriels/2016-11-27-connexion-gitlab-exterieur-terminal/</guid>
       <description>
-
-&lt;style&gt;
-{% include terminal.css %}
-&lt;/style&gt;
 
 &lt;!-- ![logo bikagit](/logo_bikagit.png) --&gt;
 
@@ -154,13 +151,14 @@ Le thème de cette page est très largement inspiré de [pages.github](https://p
 
 &lt;h4 id=&#34;ouverture-d-un-accès&#34;&gt;Ouverture d&amp;rsquo;un accès&lt;/h4&gt;
 
-&lt;p&gt;Pour ouvrir un accès au sasc3i, ouvrez un terminal et garder le ouvert pendant toute la séance de travail sur git. Attention ! Fermez le terminal c&amp;rsquo;est fermer la porte d&amp;rsquo;accès. Tapez dans le terminal&lt;/p&gt;
+&lt;p&gt;Pour ouvrir un accès au sasc3i, ouvrez un terminal et garder le ouvert pendant toute la séance de travail sur git.
+&lt;strong&gt;Attention !&lt;/strong&gt; Fermez le terminal c&amp;rsquo;est fermer la porte d&amp;rsquo;accès. Tapez dans le terminal&lt;/p&gt;
 
 &lt;div class=&#34;terminal&#34;&gt;
   &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;shell&#34;&gt;
     &lt;p&gt;&lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
-    ssh -L 2022:lic3i.univ-ag.fr:22 &lt;em&gt;&lt;strong&gt;user&lt;/strong&gt;&lt;/em&gt;@sasc3i.univ-ag.fr
+    ssh -L 2022:lic3i.univ-ag.fr:22 &lt;em&gt;user&lt;/em&gt;@sasc3i.univ-ag.fr
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -254,7 +252,7 @@ Vous devriez avoir aux minimum ceci
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Le thème de cette page est très largement inspiré de &lt;a href=&#34;https://pages.github.com&#34;&gt;pages.github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-size:0.5em;&#34;&gt; Le thème de cette page est très largement inspiré de &lt;a href=&#34;https://pages.github.com&#34;&gt;pages.github&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;

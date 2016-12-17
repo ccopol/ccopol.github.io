@@ -1,10 +1,32 @@
+body{counter-reset: h4;}
+h4:before{
+    content: counter(h4) "  ";
+    counter-increment: h4;
+
+    display: inline-block;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    background-color:#327fc7;
+    border-radius:200px;
+    font-size:20px;
+    font-weight:300;
+    color:#fff;
+    position:absolute;
+    right:1px;
+    top:-0.5px;
+    text-align:center;
+    z-index:100
+}
 .terminal{
     width:700px;
     margin:30px auto 30px
 }
 h4{
+    margin: 80px auto 60px auto;
     text-align: center;
-    font-size: 17px;
+    font-size: 2em;
+    position: relative;
 }
 .header{
     height:25px;
