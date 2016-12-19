@@ -56,14 +56,24 @@
 &lt;p&gt;Pour ouvrir un accès au sasc3i, ouvrez un terminal et garder le ouvert pendant toute la séance de travail sur git.
 &lt;strong&gt;Attention !&lt;/strong&gt; Fermez le terminal c&amp;rsquo;est fermer la porte d&amp;rsquo;accès. Tapez dans le terminal&lt;/p&gt;
 
-&lt;div class=&#34;terminal&#34;&gt;
+&lt;!-- &lt;div class=&#34;terminal&#34;&gt;
   &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;shell&#34;&gt;
     &lt;p&gt;&lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
     ssh -L 2022:lic3i.univ-ag.fr:22 &lt;em&gt;user&lt;/em&gt;@sasc3i.univ-ag.fr
     &lt;/p&gt;
   &lt;/div&gt;
+&lt;/div&gt; --&gt;
+
+&lt;div class=&#34;terminal&#34;&gt;
+  &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;shell&#34;&gt;
+    &lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
+    &lt;p&gt;ssh -L 2022:lic3i.univ-ag.fr:22 &lt;em&gt;user&lt;/em&gt;@sasc3i.univ-ag.fr&lt;/p&gt;
+
+  &lt;/div&gt;
 &lt;/div&gt;
+
 
 &lt;h4 id=&#34;rajout-du-dépôt-distant&#34;&gt;Rajout du dépôt distant&lt;/h4&gt;
 
@@ -72,11 +82,13 @@
 &lt;div class=&#34;terminal&#34;&gt;
   &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;shell&#34;&gt;
-    &lt;p&gt;&lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
-    cd /home/&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;
-    &lt;/p&gt;
+    &lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
+    
+cd /home/&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
+
 
 &lt;h4 id=&#34;lister-les-dépôts&#34;&gt;Lister les dépôts&lt;/h4&gt;
 
@@ -85,23 +97,17 @@
 &lt;div class=&#34;terminal&#34;&gt;
   &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;shell&#34;&gt;
-    &lt;p&gt;&lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
-    git remote -v
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-Vous devriez avoir aux minimum ceci
+    &lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
+    &lt;p&gt;git remote -v&lt;/p&gt;
 
-&lt;div class=&#34;terminal&#34;&gt;
-  &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;shell&#34;&gt;
-    &lt;p&gt;
-    origin&amp;nbsp;&amp;nbsp;&amp;nbsp; git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (fetch)&lt;br&gt;
-    origin&amp;nbsp;&amp;nbsp;&amp;nbsp; git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (push)&lt;/p&gt;
+&lt;p&gt;origin&amp;nbsp;&amp;nbsp;&amp;nbsp; git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (fetch)&lt;br&gt;
+origin&amp;nbsp;&amp;nbsp;&amp;nbsp; git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (push)&lt;/p&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;« origin » est le surnom de du dépôt git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/repository.git.&lt;/p&gt;
+
+&lt;p&gt;« &lt;strong&gt;origin&lt;/strong&gt; » est le surnom de du dépôt &lt;em&gt;git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/repository.git&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;ajouter-un-dépôt&#34;&gt;Ajouter un dépôt&lt;/h4&gt;
 
@@ -110,25 +116,17 @@ Vous devriez avoir aux minimum ceci
 &lt;div class=&#34;terminal&#34;&gt;
   &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;shell&#34;&gt;
-    &lt;p&gt;&lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
-    git add ext ssh://git@localhost:2022/&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git
-    &lt;/p&gt;
+    &lt;span class=&#34;path&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;prompt&#34;&gt;$&lt;/span&gt;
+    &lt;p&gt;git add ext ssh://git@localhost:2022/&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git&lt;/p&gt;
+
+&lt;p&gt;ext&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ssh://git@localhost:2022/&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (fetch)&lt;br&gt;
+  ext&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ssh://git@localhost:2022/&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (push)&lt;br&gt;
+  origin&amp;nbsp; git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (fetch)&lt;br&gt;
+  origin&amp;nbsp; git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (push)&lt;/p&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Si vous lister à nouveau les dépôts, vous avez quelque chose comme ceci :&lt;/p&gt;
-
-&lt;div class=&#34;terminal&#34;&gt;
-  &lt;div class=&#34;header&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;shell&#34;&gt;
-    &lt;p&gt;
-    ext&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ssh://git@localhost:2022/&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (fetch)&lt;br&gt;
-    ext&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ssh://git@localhost:2022/&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (push)&lt;br&gt;
-    origin&amp;nbsp; git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (fetch)&lt;br&gt;
-    origin&amp;nbsp; git@lic3i.univ-ag.fr:&lt;em&gt;user&lt;/em&gt;/&lt;em&gt;repository&lt;/em&gt;.git (push)
-    &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 
 &lt;h4 id=&#34;push-it&#34;&gt;Push it&lt;/h4&gt;
 

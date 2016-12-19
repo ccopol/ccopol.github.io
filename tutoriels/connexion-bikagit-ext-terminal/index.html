@@ -105,14 +105,24 @@
 <p>Pour ouvrir un accès au sasc3i, ouvrez un terminal et garder le ouvert pendant toute la séance de travail sur git.
 <strong>Attention !</strong> Fermez le terminal c&rsquo;est fermer la porte d&rsquo;accès. Tapez dans le terminal</p>
 
-<div class="terminal">
+<!-- <div class="terminal">
   <div class="header"></div>
   <div class="shell">
     <p><span class="path">~</span><span class="prompt">$</span>
     ssh -L 2022:lic3i.univ-ag.fr:22 <em>user</em>@sasc3i.univ-ag.fr
     </p>
   </div>
+</div> -->
+
+<div class="terminal">
+  <div class="header"></div>
+  <div class="shell">
+    <span class="path">~</span><span class="prompt">$</span>
+    <p>ssh -L 2022:lic3i.univ-ag.fr:22 <em>user</em>@sasc3i.univ-ag.fr</p>
+
+  </div>
 </div>
+
 
 <h4 id="rajout-du-dépôt-distant">Rajout du dépôt distant</h4>
 
@@ -121,11 +131,13 @@
 <div class="terminal">
   <div class="header"></div>
   <div class="shell">
-    <p><span class="path">~</span><span class="prompt">$</span>
-    cd /home/<em>user</em>/<em>repository</em>
-    </p>
+    <span class="path">~</span><span class="prompt">$</span>
+    
+cd /home/<em>user</em>/<em>repository</em>
+
   </div>
 </div>
+
 
 <h4 id="lister-les-dépôts">Lister les dépôts</h4>
 
@@ -134,23 +146,17 @@
 <div class="terminal">
   <div class="header"></div>
   <div class="shell">
-    <p><span class="path">~</span><span class="prompt">$</span>
-    git remote -v
-    </p>
-  </div>
-</div>
-Vous devriez avoir aux minimum ceci
+    <span class="path">~</span><span class="prompt">$</span>
+    <p>git remote -v</p>
 
-<div class="terminal">
-  <div class="header"></div>
-  <div class="shell">
-    <p>
-    origin&nbsp;&nbsp;&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (fetch)<br>
-    origin&nbsp;&nbsp;&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (push)</p>
+<p>origin&nbsp;&nbsp;&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (fetch)<br>
+origin&nbsp;&nbsp;&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (push)</p>
+
   </div>
 </div>
 
-<p>« origin » est le surnom de du dépôt git@lic3i.univ-ag.fr:<em>user</em>/repository.git.</p>
+
+<p>« <strong>origin</strong> » est le surnom de du dépôt <em>git@lic3i.univ-ag.fr:<em>user</em>/repository.git</em>.</p>
 
 <h4 id="ajouter-un-dépôt">Ajouter un dépôt</h4>
 
@@ -159,25 +165,17 @@ Vous devriez avoir aux minimum ceci
 <div class="terminal">
   <div class="header"></div>
   <div class="shell">
-    <p><span class="path">~</span><span class="prompt">$</span>
-    git add ext ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git
-    </p>
+    <span class="path">~</span><span class="prompt">$</span>
+    <p>git add ext ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git</p>
+
+<p>ext&nbsp;&nbsp;&nbsp;&nbsp; ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git (fetch)<br>
+  ext&nbsp;&nbsp;&nbsp;&nbsp; ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git (push)<br>
+  origin&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (fetch)<br>
+  origin&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (push)</p>
+
   </div>
 </div>
 
-<p>Si vous lister à nouveau les dépôts, vous avez quelque chose comme ceci :</p>
-
-<div class="terminal">
-  <div class="header"></div>
-  <div class="shell">
-    <p>
-    ext&nbsp;&nbsp;&nbsp;&nbsp; ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git (fetch)<br>
-    ext&nbsp;&nbsp;&nbsp;&nbsp; ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git (push)<br>
-    origin&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (fetch)<br>
-    origin&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (push)
-    </p>
-</div>
-</div>
 
 <h4 id="push-it">Push it</h4>
 

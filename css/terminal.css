@@ -18,18 +18,32 @@ h4:before{
     text-align:center;
     z-index:100
 }
-.terminal{
-    width:700px;
-    margin:30px auto 30px
-}
 h4{
     margin: 80px auto 60px auto;
     text-align: center;
     font-size: 2em;
     position: relative;
 }
+.terminal{
+    width:100%;
+    max-width: 700px;
+    margin:30px auto 30px
+}
+@media (max-width: 48em) {
+    .terminal{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 58em) {
+    .terminal{
+        font-size: 0.8rem;
+    }
+}
+.shell span+p{
+    display: inline;
+}
 .header{
-    height:25px;
+    height:10px;
     display:block;background:-moz-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(5%, #cfcfcf), color-stop(100%, #aaa));
     background:-webkit-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
@@ -42,14 +56,14 @@ h4{
     border-top-left-radius:7px;
     border-top-right-radius:7px;
     text-align:center;
-    font-size:13px;
+    /*font-size:13px;*/
     line-height:25px;
     text-shadow:0 1px 0 rgba(255,255,255,0.6);
     color:#444
 }
 .shell{
     font-family:Consolas, "Liberation Mono", Courier, monospace;
-    font-size:17px;
+    /*font-size:17px;*/
     line-height:20px;
     color:#eeeb82;
     background-color:#3d3d3d;
@@ -64,11 +78,6 @@ h4{
 .shell em{
     /*color:#f39c12;*/
     color:#f1c40f;
-}
-.tutorial-list .shell p{
-    margin:0;
-    font-weight:bold;
-    -webkit-backface-visibility:hidden
 }
 .path{
     color:#71cfee;
