@@ -3,7 +3,17 @@
   
   <url>
     <loc>http://www.ccopol.fr/</loc>
-    <lastmod>2016-12-15T09:03:22-04:00</lastmod>
+    <lastmod>2016-12-17T16:33:23-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ccopol.fr/latex/mes-extensions/authornotes/</loc>
+    <lastmod>2016-12-17T16:33:23-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ccopol.fr/publi/</loc>
+    <lastmod>2016-12-16T11:22:33-04:00</lastmod>
   </url>
   
   <url>
@@ -12,12 +22,12 @@
   </url>
   
   <url>
-    <loc>http://www.ccopol.fr/tutoriels/2016-11-27-connexion-gitlab-exterieur-Gitkraken/</loc>
+    <loc>http://www.ccopol.fr/tutoriels/connexion-bikagit-ext-Gitkraken/</loc>
     <lastmod>2016-01-27T18:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.ccopol.fr/tutoriels/2016-11-27-connexion-gitlab-exterieur-terminal/</loc>
+    <loc>http://www.ccopol.fr/tutoriels/connexion-bikagit-ext-terminal/</loc>
     <lastmod>2016-01-27T17:38:20-04:00</lastmod>
   </url>
   

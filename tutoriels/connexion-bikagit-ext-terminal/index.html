@@ -29,9 +29,9 @@
 
 <body class=" ">
     <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container">
     <div class="sidebar-about">
-      <img src="/cedrick_avatar_480.png" alt="Avatar de Cédrick Copol" height="250px" style="margin:auto">
+      <img src="/cedrick_avatar_480.png" alt="Avatar de Cédrick Copol" >
       <a href="http://www.ccopol.fr/"><h1>Cédrick Copol</h1></a>
       <p class="lead">
        Docteur en Mathématiques Appliquées 
@@ -41,11 +41,10 @@
     <ul class="sidebar-nav">
         <li><a href="/">Accueil</a> </li>
 
-        
 
         <li><a href="/cv/">CV détaillé</a> </li>
         
-        
+          <li><a href="/publi/"> Publications </a></li>
         
 
         <li><a href="/pagedegarde.html">Page de garde (UA)</a> </li>
@@ -63,23 +62,21 @@
 
     <div class="content container">
         <div class="post">
-            <h1>Bikagit hors de l&#39;université ! (méthode avec Gitkraken)</h1>
+            <h1>Bikagit hors de l&#39;université ! (méthode avec le terminal)</h1>
           <span class="post-date">Wed, Jan 27, 2016</span>
               
 
-<!-- <section role="banner">
-  <img src="/img/lamia-titre-petit.jpeg" />
-</section> -->
+<!-- ![logo bikagit](/logo_bikagit.png) -->
 
-<h1 id="accéder-à-son-dépôt-git-à-l-extérieur-de-l-université">Accéder à son dépôt git à l&rsquo;extérieur de l&rsquo;université</h1>
+<!-- # Accéder à son dépôt git à l'extérieur de l'université -->
 
-<p>L&rsquo;utilisation de bikagit au sein de l&rsquo;université ne pose aucun problème<sup class="footnote-ref" id="fnref:com1"><a rel="footnote" href="#fn:com1">1</a></sup> mais hors de l&rsquo;université cela vous demandera quelques adaptations. Dans la suite, nous verrons comment vous pourrez accéder à vos dépôt sur <strong>bikagit</strong> à l&rsquo;extérieur.</p>
+<p>L&rsquo;utilisation de bikagit au sein de l&rsquo;université de pose aucun problème<sup class="footnote-ref" id="fnref:com1"><a rel="footnote" href="#fn:com1">1</a></sup> mais hors de l&rsquo;université cela vous demandera quelques adaptations. Dans la suite, nous verrons comment vous pourrez accéder à vos dépôt bikagit à l&rsquo;extérieur.</p>
 
 <h2 id="pré-requis">Pré-requis</h2>
 
 <h3 id="accès">Accès</h3>
 
-<p>La création d&rsquo;un compte permettant l&rsquo;accès au service <strong>bikagit</strong> n&rsquo;est pas un processus automatique, assurez-vous donc d&rsquo;avoir un compte.</p>
+<p>La création d&rsquo;un compte permettant l&rsquo;accès au service bikagit n&rsquo;est pas un processus automatique, assurez-vous donc d&rsquo;avoir un compte.</p>
 
 <p>Nous supposons que vous avez un compte sur le bikagit de l&rsquo;université mais aussi sur le sas. Si l&rsquo;un de ces pré-requis n&rsquo;est pas satisfait, veuillez vous rapprocher de votre administrateur de <strong>bikagit</strong> et de <strong>sasc3i</strong>.</p>
 
@@ -105,7 +102,8 @@
 
 <h4 id="ouverture-d-un-accès">Ouverture d&rsquo;un accès</h4>
 
-<p>Pour ouvrir un accès au sasc3i, ouvrez un terminal et <strong>garder</strong> le ouvert pendant toute la séance de travail sur bikagit. Attention ! Fermer le terminal c&rsquo;est fermer la porte d&rsquo;accès. Tapez dans le terminal</p>
+<p>Pour ouvrir un accès au sasc3i, ouvrez un terminal et garder le ouvert pendant toute la séance de travail sur git.
+<strong>Attention !</strong> Fermez le terminal c&rsquo;est fermer la porte d&rsquo;accès. Tapez dans le terminal</p>
 
 <div class="terminal">
   <div class="header"></div>
@@ -116,30 +114,94 @@
   </div>
 </div>
 
-<p><img src="/img/00_connexion_sasc3i.gif" alt="Création d'une porte via le sas" /></p>
+<h4 id="rajout-du-dépôt-distant">Rajout du dépôt distant</h4>
 
-<h4 id="lister-les-dépôts-distants">Lister les dépôts distants</h4>
+<p>Se rendre (avec un autre terminal) dans le dossier contenant votre travail.</p>
 
-<p>Les dépôts distants (« remote ») sont sur la partie gauche de l&rsquo;interface de <a href="http://www.gitkraken.com">Gitkraken</a>.
-<!-- , voir l'image suivante : --></p>
+<div class="terminal">
+  <div class="header"></div>
+  <div class="shell">
+    <p><span class="path">~</span><span class="prompt">$</span>
+    cd /home/<em>user</em>/<em>repository</em>
+    </p>
+  </div>
+</div>
 
-<!-- ![liste des dépôts distants](/img/01_liste_depot_distant.gif) -->
+<h4 id="lister-les-dépôts">Lister les dépôts</h4>
+
+<p>Vous pouvez afficher la liste de dépôts distant associés à ce répertoire</p>
+
+<div class="terminal">
+  <div class="header"></div>
+  <div class="shell">
+    <p><span class="path">~</span><span class="prompt">$</span>
+    git remote -v
+    </p>
+  </div>
+</div>
+Vous devriez avoir aux minimum ceci
+
+<div class="terminal">
+  <div class="header"></div>
+  <div class="shell">
+    <p>
+    origin&nbsp;&nbsp;&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (fetch)<br>
+    origin&nbsp;&nbsp;&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (push)</p>
+  </div>
+</div>
+
+<p>« origin » est le surnom de du dépôt git@lic3i.univ-ag.fr:<em>user</em>/repository.git.</p>
 
 <h4 id="ajouter-un-dépôt">Ajouter un dépôt</h4>
 
 <p>Il faut rajouter le dépôt distant ssh://git@localhost:2022/user/repository.git que nous pouvons surnommer « ext ».</p>
 
-<p><img src="/img/01_add_ext_remote.gif" alt="Rajout dépôt distant avec Gitkraken" /></p>
+<div class="terminal">
+  <div class="header"></div>
+  <div class="shell">
+    <p><span class="path">~</span><span class="prompt">$</span>
+    git add ext ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git
+    </p>
+  </div>
+</div>
 
-<h4 id="push-it-propager">Push it &mdash; Propager</h4>
+<p>Si vous lister à nouveau les dépôts, vous avez quelque chose comme ceci :</p>
+
+<div class="terminal">
+  <div class="header"></div>
+  <div class="shell">
+    <p>
+    ext&nbsp;&nbsp;&nbsp;&nbsp; ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git (fetch)<br>
+    ext&nbsp;&nbsp;&nbsp;&nbsp; ssh://git@localhost:2022/<em>user</em>/<em>repository</em>.git (push)<br>
+    origin&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (fetch)<br>
+    origin&nbsp; git@lic3i.univ-ag.fr:<em>user</em>/<em>repository</em>.git (push)
+    </p>
+</div>
+</div>
+
+<h4 id="push-it">Push it</h4>
 
 <!-- À l'extérieur de la fac, il faudra choisir le dépôt « ext » pour pousser ou tirer les changements. -->
 
-<p><img src="/img/02_push_to_ext_remote.gif" alt="push vers ext" /></p>
+<div class="terminal">
+  <div class="header"></div>
+  <div class="shell">
+    <p><span class="path">~</span><span class="prompt">$</span>
+    git push ext master
+    </p>
+  </div>
+</div>
 
-<h4 id="pull-it-rappatrier">Pull it &mdash; Rappatrier</h4>
+<h4 id="pull-it">Pull it</h4>
 
-<p><img src="/img/03_pull_from_ext_remote.gif" alt="pull à partir ext" /></p>
+<div class="terminal">
+  <div class="header"></div>
+  <div class="shell">
+    <p><span class="path">~</span><span class="prompt">$</span>
+    git pull ext master
+    </p>
+  </div>
+</div>
 
 <p><span style="font-size:0.5em;"> Le thème de cette page est très largement inspiré de <a href="https://pages.github.com">pages.github</a></span></p>
 <div class="footnotes">

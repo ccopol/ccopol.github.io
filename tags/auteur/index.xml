@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cédrick Copol</title>
+    <link>http://www.ccopol.fr/tags/auteur/index.xml</link>
+    <description>Recent content on Cédrick Copol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>Cédrick Copol</copyright>
+    <atom:link href="http://www.ccopol.fr/tags/auteur/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>authornotes</title>
+      <link>http://www.ccopol.fr/latex/mes-extensions/authornotes/</link>
+      <pubDate>Sat, 17 Dec 2016 16:33:23 -0400</pubDate>
+      
+      <guid>http://www.ccopol.fr/latex/mes-extensions/authornotes/</guid>
+      <description>&lt;p&gt;Basé sur l&amp;rsquo;extension &lt;a href=&#34;https://www.ctan.org/pkg/todonotes&#34;&gt;todonotes&lt;/a&gt;, &lt;em&gt;authornotes&lt;/em&gt; permet rapidement de créer des note dans la marge pour plusieurs auteurs. Une couleur sera associée à chaque auteur ainsi qu&amp;rsquo;une numérotation de ses remarques.&lt;/p&gt;
+
+&lt;p&gt;\authornote{Ced}&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

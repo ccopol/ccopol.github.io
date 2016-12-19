@@ -36,12 +36,12 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 
@@ -68,16 +68,20 @@ html {
     width: 18rem;
     text-align: left;
   }
-  .sidebar-nav .separator{
-      height:25px;
-  }
-}
 
+}
+img {
+    margin: auto;
+}
 /* Sidebar links */
 .sidebar a {
   color: #fff;
 }
-
+.sidebar img{
+  margin: auto;
+  max-height: 200px;
+  /*width: 70%;*/
+}
 /* About section */
 .sidebar-about h1 {
   color: #fff;
